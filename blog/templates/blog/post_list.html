@@ -14,8 +14,18 @@
         }
 
    </script>
+   <style>
+     body {
+         background-color: black;
+         background-image: url('http://www.dsdtechnology.it/wp-content/uploads/2014/12/GPON-Technology-Platform-bg.jpg');
+         background-position: top right;
+         background-repeat: no-repeat;
+     }
+   </style>
+
    </head>
-   <body>
+
+<body>
 
 <header>Technologia VR - wirtualna rzeczywistość</header>
 
@@ -26,21 +36,6 @@
 </div>
 <section>
 
-  <div class="content container">
-      <div class="row">
-          <div class="col-md-8">
-              {% for post in posts %}
-                  <div class="post">
-                      <div class="date">
-                          <p>published: {{ post.published_date }}</p>
-                      </div>
-                      <h1><a href="">{{ post.title }}</a></h1>
-                      <p>{{ post.text|linebreaksbr }}</p>
-                  </div>
-              {% endfor %}
-          </div>
-      </div>
-  </div>
 
   <div class="row">
     <div class="column">
